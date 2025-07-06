@@ -30,3 +30,4 @@ jobs:
     - name: Push Docker Image 
       run: |
         docker push postmorquecho/postmorquecho-docker-graphql:0.0.2
+ 
