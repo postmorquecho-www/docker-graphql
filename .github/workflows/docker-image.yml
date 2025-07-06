@@ -26,8 +26,8 @@ jobs:
     - name: Build Docker Image 
       run: |
         docker build -t postmorquecho/postmorquecho-docker-graphql:0.0.2 .
-
+        docker build -t postmorquecho/postmorquecho-docker-graphql:latest .
     - name: Push Docker Image 
       run: |
-        docker push postmorquecho/postmorquecho-docker-graphql:0.0.2
+        docker push postmorquecho/postmorquecho-docker-graphql:latest
  
